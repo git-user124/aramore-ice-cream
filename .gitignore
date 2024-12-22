@@ -1,0 +1,24 @@
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Django's SQLite database
+db.sqlite3
+
+# Django static files
+/static/
+
+# Media files (if you have a media folder for uploads)
+/media/
+
+# Environment variable files
+.env
+
+# IDE or editor configuration files
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
