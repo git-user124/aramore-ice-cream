@@ -1,24 +1,19 @@
-# Python bytecode files
-*.pyc
+# Python bytecode
 __pycache__/
+*.pyc
 
-# Django's SQLite database
+# Django SQLite database
 db.sqlite3
 
-# Django static files
-/static/
+# Virtual Environment
+venv/
 
-# Media files (if you have a media folder for uploads)
-/media/
+# Media and Static folders (can be handled differently)
+static/
+media/
 
-# Environment variable files
-.env
-
-# IDE or editor configuration files
+# IDE-specific files (VS Code)
 .vscode/
-.idea/
-*.swp
 
-# Operating system files
-.DS_Store
-Thumbs.db
+# Django migrations (optional if we need them, but usually ignored)
+home/migrations/
